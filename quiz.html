@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Translator Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Начало</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="word" id="quiz-word"></div>
+        <div class="input-group">
+            <input type="text" id="translation" placeholder="Въведи превода тук">
+            <button id="action-button" onclick="handleButtonClick()">Check</button>
+        </div>
+        <div class="result" id="result"></div>
+        <div class="counter" id="counter"></div>
+    </div>
+    <script src="words.js"></script>
+    <script src="quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стефан Думи Английски</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <h3 class="title">Стефан Думи Английски</h3>
+            <ul>
+                <li><a href="index.html">Начало</a></li>
+                <li><a onclick="startQuiz('bg-to-en')">BG > EN</a></li>
+                <li><a onclick="startQuiz('en-to-bg')">EN > BG</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Избери вид на теста</h1>
+        <button id="bulgarian-to-english" onclick="startQuiz('bg-to-en')">Български към Английски</button>
+        <button id="english-to-bulgarian" onclick="startQuiz('en-to-bg')">Английски към Български</button>
+    </div>
+
+    <script src="homepage.js"></script>
+</body>
+</html>
